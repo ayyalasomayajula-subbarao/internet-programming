@@ -1,0 +1,80 @@
+/* Setting the background image for the body */
+body{
+    background: url(..//images/top-view-chat-bubbles-with-telephone-receiver-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Styling for the container */
+.container {
+    max-width: 600px;
+    margin: 153px auto;
+    padding: 20px;
+    background-color:azure;
+    border-radius: 10px;
+    
+}
+/* Styling for labels, inputs, and selects */
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Styling for buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for the link */
+#men{
+    color: white;
+    text-decoration:none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: absolute;
+    top: 100px;
+    left: 46%;
+    border-radius:30px 30px 30px 30px;
+}
+#cnt{
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: absolute;
+    left:54%;
+    top: 100px;
+    border-radius:30px 30px 30px 30px;
+}
+#home{
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: absolute;
+    left:38%;
+    top: 100px;
+    border-radius:30px 30px 30px 30px;
+}
+/* Hover effect for the link */
+#men:hover{
+    background-color:rgb(231, 218, 199);
+}
+
+#cnt:hover{
+    background-color:rgb(231, 218, 199);
+}
+
+#home:hover{
+    background-color:rgb(231, 218, 199);
+}
+

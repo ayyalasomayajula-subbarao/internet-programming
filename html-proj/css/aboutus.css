@@ -1,0 +1,68 @@
+/* Styling for h2 element */
+h2{
+    border:  2px solid;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color:white;
+    bottom: 98%;
+    }
+    /* Setting background image for the body */
+    body{
+        background-image: url(../images/marten-bjork-n_IKQDCyrG0-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }      
+    /* Styling for link */
+#men{
+    color: white;
+    text-decoration:none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: absolute;
+    left:40%;
+    top: 70px;
+    border-radius:30px 30px 30px 30px;
+}
+#cnt{
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: absolute;
+    left:56%;
+    top: 70px;
+    border-radius:30px 30px 30px 30px;
+}
+#home{
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: absolute;
+    left:48%;
+    top: 70px;
+    border-radius:30px 30px 30px 30px;
+}
+/* Hover effect for link */
+#men:hover{
+    background-color:rgb(136, 117, 69);
+}
+
+
+#cnt:hover{
+    background-color:rgb(136, 117, 69);
+}
+
+#home:hover{
+    background-color:rgb(136, 117, 69);
+}
+.para{
+    color: white;   /* Setting the text color */
+}

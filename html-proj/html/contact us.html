@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Room Booking </title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="../css/contact us.css">
+</head>
+
+<body>
+    <!-- Navigation Buttons -->
+    <div class="button">
+        <div id="men"><a href="../html/menu.html" style="color:white">Menu</a></div>
+        <div id="home"><a href="../html/home.html" style="color:white">Home</a></div>
+        <div id="cnt"><a href="../html/about us.html" style="color:white">About Us</a></div>
+    </div>
+
+    <!-- Contact Form Container -->
+    <div class="container">
+        <!-- Main Heading -->
+        <h1>Room Booking</h1>
+        <form id="bookingForm">
+            <!-- Input Field: First Name -->
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Input Field: Last Name -->
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <!-- Input Field: Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Textarea for Message -->
+            <!-- Dropdown for Room Preference -->
+<label for="roomPreference">Room Preference:</label>
+<select id="roomPreference" name="roomPreference" required>
+    <option value="deluxe">Deluxe</option>
+    <option value="single">Single</option>
+    <option value="double">Double</option>
+    <option value="queen">Queen</option>
+    <option value="king">King</option>
+    <option value="executiveSuite">Executive Suite</option>
+    <option value="villa">Villa</option>
+</select>
+<br>
+
+
+            <br>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+
+        <!-- Display Area for Submitted Values -->
+        <div id="displayArea"></div>
+    </div>
+
+    <script>
+        function submitForm() {
+    // Get input values
+    var firstName = document.getElementById("name").value;
+    var lastName = document.getElementById("lastName").value;
+    var email = document.getElementById("email").value;
+    var roomPreference = document.getElementById("roomPreference").value;
+
+    // Display the values
+    var displayArea = document.getElementById("displayArea");
+    displayArea.innerHTML = "<h2>Submitted Values:</h2>" +
+        "<p><strong>First Name:</strong> " + firstName + "</p>" +
+        "<p><strong>Last Name:</strong> " + lastName + "</p>" +
+        "<p><strong>Email:</strong> " + email + "</p>" +
+        "<p><strong>Room Preference:</strong> " + roomPreference + "</p>";
+}
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+/* Setting the margin of the body to 0% */
+body {
+    margin: 0%;
+    background-image:url(../images/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Styling for the heading  */
+
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+h2{
+    color:rgb(223, 222, 218);
+    text-align: center;
+    border: solid;
+    font-family: 'Playfair Display', serif;
+}
+/* Hover effect for grid items */
+.grid{
+    margin-top: 0px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-image: linear-gradient(135deg,rgba(221, 216, 202,0.8)0%,rgba(111, 87, 53, 0.8)100%);
+}
+    
+
+.grid-item{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.grid-item:hover{
+    transform: scale(1.2);
+  
+    /* Styling for buttons */
+}
+button{
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    
+
+}
+button:hover{
+    background-color: rgb(166, 144, 78);
+}
+.item-last{
+    padding-right:40px;
+}
+.item-first{
+    padding-left: 35px;
+}
+a{
+    text-decoration: none;
+}
+/* Styling for the menu bar */
+#Menu{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.menu-item{
+    display: inline;
+    padding: 5px;
+    border: 2px solid white; 
+    border-radius:30px 30px 30px 30px;
+   
+    
+}
+.menu-item a{
+    color: white;   
+}
+#dinner{
+    color: white;
+}
+.menu-item:hover{
+    background-color:rgba(114, 7, 7, 0.929);
+
+}

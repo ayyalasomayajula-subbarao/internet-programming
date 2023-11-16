@@ -1,0 +1,124 @@
+/* Setting the background image of the page */
+body {
+    background-image: url('../images/beautiful-luxury-outdoor-swimming-pool-hotel-resort.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Creating a semi-transparent overlay on top of the background image */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), 
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+/* Styling the text container */
+.text-container {
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px; 
+    text-align: center;
+}
+/* Styling heading */
+h1 {
+    font-size: 200px; 
+    font-weight: 2;
+    letter-spacing: 2px; 
+    font-family: 'Playfair Display', serif;
+    color: rgb(221, 216, 202);
+    height: 400px;
+   
+    
+}
+
+h2 {
+    font-size: 120px; 
+    font-weight: 5;
+    letter-spacing: 2px; 
+    font-family: 'Playfair Display', serif;
+    color: rgb(221, 216, 202);
+    text-align: center;
+    margin-top: 330px;
+    transform: translate(-50%, -50%);
+    margin-left: 50%;
+}
+
+h3{
+    font-size: 80px; 
+    font-weight: 4;
+    letter-spacing: 2px; 
+    font-family: 'Playfair Display', serif;
+    color: rgb(221, 216, 202);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-left: 48%;
+    position: absolute;
+    bottom: 180px;
+    }
+/* Styling the buttons */
+ #abt{
+    color:white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white;
+    position: relative;
+    left: 37%;
+    margin-top: 40px;
+    bottom: 180px;
+    border-radius:30px 30px 30px 30px;
+
+}
+#mnu{
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white; 
+    position: relative;
+    left: 28%;
+    margin-top: 40px;
+    bottom: 180px;
+    border-radius:30px 30px 30px 30px;
+}
+#cnt{
+    color: white;
+    text-decoration:none;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 8px 16px; 
+    border: 2px solid white;
+    position: relative;
+    left: 51%;
+    margin-top: 40px;
+    bottom: 180px; 
+    border-radius:30px 30px 30px 30px;
+
+    /* Styling the hover effect on buttons */
+}
+.buttons #mnu:hover{
+    background-color:white;
+    background-color: rgba(101, 58, 6, 0.627); 
+}
+.buttons #abt:hover{
+    background-color:white;
+    background-color: rgba(101, 58, 6, 0.627);  
+    }
+
+.buttons #cnt:hover{
+    background-color:white;
+    background-color: rgba(101, 58, 6, 0.627); 
+}
+
+
+
+
+  
